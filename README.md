@@ -29,6 +29,10 @@ bash scripts/run_all_programs.sh # runs all models
 
 # Demo
 
+
+https://github.com/user-attachments/assets/6b52450d-78fd-45f6-b42f-6893c71f9f13
+
+
 # Report
 
 ## Machine Learning Models
