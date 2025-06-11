@@ -15,14 +15,20 @@ social media text.
 and Naive Bayes) are trained on the bag-of-words representation of the tweet corpus, aiming to
 generalize from training data to make more flexible predictions on unseen text. 
 
-This project can be run in a virtual environment (recommended for dependency
+This project is run in a virtual environment (recommended for dependency
 management, though not mandatory if all required packages are already installed).
+All required dependencies are listed in requirements.txt and will be installed
+automatically during environment setup.
+
+# Commands
 ```
 bash scripts/create_env.sh # creates virtual environment
 source myenv/bin/activate # opens virtual environment
 bash scripts/run_all_programs.sh # runs all models
 ```
 
+# Demo
 
-All required dependencies are listed in requirements.txt and will be installed
-automatically during environment setup.
+# Findings
+
+# References
