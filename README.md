@@ -29,6 +29,33 @@ bash scripts/run_all_programs.sh # runs all models
 
 # Demo
 
-# Findings
+# Report
+| Model         | Validation Performance (Accuracy) | Test Performance (Accuracy) | 
+|---------------|----------|-----------|
+| Linear Regression | 66.25%   | 64.40%    | 
+| Logistic Regression | 71.25%    | 72.50%    | 
+| Naive Bayes   | 99.50%     | 99.40%     | 
+|---------------|----------|-----------|
+
+| Model         | Positive Accuracy  | Negative Accuracy  | Overall Accuracy |
+|---------------|----------|-----------|-----------|
+| VADER         | -    | 84.24%     | 
+|---------------|----------|-----------|-----------|
+
+# Conclusion
+
+VADER demonstrated strong performance on social media content by leveraging its lexicon of slang, 
+emojis, and acronyms. However, it showed reduced accuracy when detecting negative sentiment, likely due to the subtlety of some negative expressions.
+Among the machine learning models, Naive Bayes achieved the highest performance.
+Its success is likely due to the dataset’s clear sentiment cues and balanced class distribution,
+which aligns well with the independence assumption of the model. Logistic Regression
+outperformed Linear Regression, as expected, due to its probabilistic nature. However, both
+regression-based models were affected by the limited sample size and the large number of
+features, which reduced their ability to generalize.
+Overall, the results highlight that rule-based models can offer fast and
+domain-relevant performance with minimal training, while machine learning models are
+capable of higher accuracy under the right data conditions. For real-world deployment,
+especially on noisy or imbalanced datasets, further validation and more robust modeling
+techniques may be necessary.
 
 # References
