@@ -1,4 +1,4 @@
-# Sentiment-Analysis-Model-Evaluation
+# Sentiment Analysis Model Evaluation
 
 In this project, I implement a Twitter Sentiment Analysis system using a dataset of
 approximately 10,000 pre-labeled tweets, consisting of both positive and negative samples
