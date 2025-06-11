@@ -30,17 +30,18 @@ bash scripts/run_all_programs.sh # runs all models
 # Demo
 
 # Report
+
+## Machine Learning Models
 | Model         | Validation Performance (Accuracy) | Test Performance (Accuracy) | 
 |---------------|----------|-----------|
 | Linear Regression | 66.25%   | 64.40%    | 
 | Logistic Regression | 71.25%    | 72.50%    | 
 | Naive Bayes   | 99.50%     | 99.40%     | 
-|---------------|----------|-----------|
 
+## Rule Based Classifier
 | Model         | Positive Accuracy  | Negative Accuracy  | Overall Accuracy |
 |---------------|----------|-----------|-----------|
 | VADER         | -    | 84.24%     | 
-|---------------|----------|-----------|-----------|
 
 # Conclusion
 
